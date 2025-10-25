@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpdip3adh3flm"]
+
+[ext_resource type="PackedScene" uid="uid://boh55vwvfssrq" path="res://assets/PSX_Dungeon/Models/Block_Arch.fbx" id="1_jmwrb"]
+[ext_resource type="Texture2D" uid="uid://lcnmdb7guh5r" path="res://assets/PSX_Dungeon/Textures/Dungeon_Map.png" id="2_2i1ov"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tvq1h"]
+albedo_texture = ExtResource("2_2i1ov")
+texture_filter = 0
+
+[node name="Block_Arch" instance=ExtResource("1_jmwrb")]
+
+[node name="Cube_053" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_tvq1h")
