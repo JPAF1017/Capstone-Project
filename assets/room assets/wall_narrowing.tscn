@@ -19,4 +19,5 @@ visible = false
 
 [node name="CSGMesh3D" type="CSGMesh3D" parent="Cube_055/Colision" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, 0, -45)
+use_collision = true
 mesh = ExtResource("3_nnl27")

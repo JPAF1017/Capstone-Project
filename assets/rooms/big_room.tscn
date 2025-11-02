@@ -85,13 +85,13 @@ transform = Transform3D(0.390652, 0, 0.0859691, 0, 0.4, 0, -0.0859691, 0, 0.3906
 transform = Transform3D(0.267019, 0, 0.297827, 0, 0.4, 0, -0.297827, 0, 0.267019, 10.4041, -4.82842, -12.3848)
 
 [node name="Barrel" parent="Models/Props" instance=ExtResource("8_o34fn")]
-transform = Transform3D(0.234427, 0, 0.0868569, 0, 0.25, 0, -0.0868569, 0, 0.234427, -11.3367, -8.68611, -13.2704)
+transform = Transform3D(0.3750828, 0, 0.13897088, 0, 0.4, 0, -0.13897088, 0, 0.3750828, -10.962199, -8.68611, -12.877797)
 
 [node name="Barrel2" parent="Models/Props" instance=ExtResource("8_o34fn")]
-transform = Transform3D(0.0806075, 0, 0.236648, 0, 0.25, 0, -0.236648, 0, 0.0806075, -13.0802, -8.68611, -12.0853)
+transform = Transform3D(0.12897216, 0, 0.37863728, 0, 0.4, 0, -0.37863728, 0, 0.12897216, -12.562303, -8.804403, -10.0215225)
 
 [node name="Barrel3" parent="Models/Props" instance=ExtResource("8_o34fn")]
-transform = Transform3D(0.235601, 0, -0.0836201, 0, 0.25, 0, 0.0836201, 0, 0.235601, -9.10144, -8.68611, -13.1219)
+transform = Transform3D(0.37696114, 0, -0.13379201, 0, 0.4, 0, 0.13379201, 0, 0.37696114, -7.5385747, -8.68611, -13.048137)
 
 [node name="Wall" type="Node3D" parent="Models"]
 

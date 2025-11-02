@@ -14,6 +14,7 @@ metadata/_custom_type_script = "uid://c801ki3oghumx"
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 visible = false
+use_collision = true
 size = Vector3(20, 10, 10)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="CSGBox3D"]
